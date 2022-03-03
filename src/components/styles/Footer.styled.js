@@ -11,6 +11,9 @@ const StyledFooter = styled.footer`
 	ul li {
 		margin-bottom: 20px;
 	}
+	li a {
+		color: ${({ theme }) => theme.colors.body};
+	}
 	p {
 		text-align: center;
 		padding-top: 10px;
@@ -20,6 +23,7 @@ const StyledFooter = styled.footer`
 		ul {
 			padding: 0;
 		}
+
 		p {
 			text-align: center;
 		}
