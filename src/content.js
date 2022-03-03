@@ -2,7 +2,7 @@ const content = [
 	{
 		id: 1,
 		title: 'Grow Together',
-		body: 'Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.',
+		body: 'Generate meaningful discussions with your connections and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.',
 		image: 'illustration-grow-together.svg',
 	},
 	{
@@ -14,7 +14,7 @@ const content = [
 	{
 		id: 3,
 		title: 'Your Users',
-		body: "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.",
+		body: "It takes no time at all to integrate Devunity with your app. From installing the app to using it, you'll have access to your connections 24/7.",
 		image: 'illustration-your-users.svg',
 	},
 ];
