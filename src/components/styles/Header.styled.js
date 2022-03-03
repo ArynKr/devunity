@@ -10,11 +10,29 @@ const Nav = styled.nav`
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 40px;
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+		flex-direction: column;
+		/* align-items: flex-start; */
+		margin-bottom: 20px;
+	}
 `;
 
 const Logo = styled.img`
-	/* width: 100px; */
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+		margin-bottom: 20px;
+	}
+`;
+
+const Image = styled.img`
+	width: 375px;
+	margin-left: 40px;
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+		margin-block: 40px;
+		margin-inline: auto;
+	}
 `;
 
 export default StyledHeader;
-export { Nav, Logo };
+export { Nav, Logo, Image };

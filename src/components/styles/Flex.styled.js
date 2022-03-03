@@ -8,6 +8,11 @@ const Flex = styled.div`
 	& > ul {
 		flex: 1;
 	}
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+		flex-direction: column;
+		text-align: center;
+	}
 `;
 
 export default Flex;
