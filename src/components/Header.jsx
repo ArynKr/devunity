@@ -7,7 +7,7 @@ function Header() {
 		<StyledHeader>
 			<Container>
 				<Nav>
-					<Logo src='images/logo.svg' alt='logo' />
+					<Logo src='images/Devunity.svg' alt='logo' />
 					<Button>Try It Free</Button>
 				</Nav>
 			</Container>
